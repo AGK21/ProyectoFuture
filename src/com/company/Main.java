@@ -10,7 +10,7 @@ public class Main {
 
         System.out.println("Estudiante " + args[0] +" "+ args[1] +" con " + args[2]+ " modulos, dedica " + args[3] + " horas semanales a estudiar" );
     }
-    private static String veredicto (String valor1, String valor2){
+    public static String veredicto (String valor1, String valor2){
 
         if (valor2.equals(valor2)) {
             return "Bien. Pero una hora de estudio para cada módulo puede ser insuficiente.";
